@@ -1,0 +1,44 @@
+.all-cuisine-items-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+    margin: 0.75rem;
+}
+
+.cuisine-item-card-link {
+    text-decoration: none;
+    color: black;
+}
+
+.cuisineitem-image {
+    border-radius: 0.5rem;
+}
+
+.cuisine-title-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.cuisine-title-container p {
+    min-width: 12rem;
+}
+
+.fav-icon-wrapper {
+    padding: 0.5rem;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.classRedColorIcon {
+    background-color: red;
+    color: white;
+}
+
+.classNormalColorIcon {
+    background-color: white;
+    color: gray; 
+}

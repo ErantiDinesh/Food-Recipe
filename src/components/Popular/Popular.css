@@ -1,0 +1,15 @@
+.splide__track {
+    overflow: visible;
+}
+
+.splide__slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 17rem;
+}
+
+.popular-items-heading {
+    font-size: 1.5rem;
+    font-weight: 700;
+}

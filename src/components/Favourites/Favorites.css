@@ -1,0 +1,7 @@
+.favourite-items-cont {
+    display: flex;
+    width: 101%;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}

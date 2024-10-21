@@ -1,0 +1,62 @@
+.detailed-product-cont {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin: 0.5rem 8rem;
+}
+
+.detailed-product-cont h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.detailed-leftside-cont {
+    width: 33vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.detailed-leftside-cont img {
+
+}
+
+.detailed-rightside-cont {
+    min-height: 100vh;
+    width: 37vw;
+    padding-top: 1.5rem;
+}
+
+.detailed-product-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.detailed-product-instructions p {
+    color: black;
+    font-size: 1rem;
+}
+
+.detailed-product-instructions p a {
+    color: black;
+}
+
+.ingredients-list {
+
+}
+
+.active-class {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    padding: 0.4rem;
+    /* margin-right: 1rem; */
+}
+
+.inactive-class {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 0.4rem;
+    /* margin-left: 1rem; */
+}
