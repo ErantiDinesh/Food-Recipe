@@ -42,7 +42,7 @@ const CuisineItemCard = (props) => {
         <img src={imageUrl} className="cuisineitem-image" alt={title} />
       </Link>
       <div className="cuisine-title-container">
-        <p> {title} </p>
+        <p className="cuisineitem-title">{title}</p>
         <div className={`fav-icon-wrapper ${favIconStyle}`}>
           <FaRegHeart onClick={addProductToFav} />
         </div>

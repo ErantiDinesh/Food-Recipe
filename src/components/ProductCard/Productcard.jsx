@@ -29,10 +29,10 @@ const Productcard = (props) => {
 
     if (isItemPresent) {
       removeRecipe(Recipeitem);
-      setFavIconStyle("classNormalColorIcon"); 
+      setFavIconStyle("classNormalColorIcon");
     } else {
       addRecipe(Recipeitem);
-      setFavIconStyle("classRedColorIcon"); 
+      setFavIconStyle("classRedColorIcon");
     }
   };
 
@@ -44,7 +44,10 @@ const Productcard = (props) => {
       <div className="product-title-container">
         <p className="product-card-title">{title}</p>
         <div className={`fav-icon-wrapper ${favIconStyle}`}>
-          <FaRegHeart onClick={addProductToFav} />
+          <FaRegHeart
+            onClick={addProductToFav}
+            className="faregheart-icon"
+          />
         </div>
       </div>
     </div>

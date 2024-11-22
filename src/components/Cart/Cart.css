@@ -1,0 +1,25 @@
+.cart-container {
+    padding: 0rem, 2rem;
+  }
+  
+  .cart-heading {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    padding-left: 12.2rem;
+  }
+  
+  .empty-cart-message {
+    font-size: 1.2rem;
+    text-align: center;
+    color: grey;
+  }
+
+  .cart-total-price {
+    text-align: end;
+    padding-right: 13rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  

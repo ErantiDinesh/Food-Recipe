@@ -7,6 +7,8 @@ import Cuisine from './components/Cuisine/Cuisine'
 import RecipePage from './components/RecipePage/RecipePage'
 import SearchedProducts from './components/SearchedProducts/SearchedProducts'
 import Favourites from './components/Favourites/Favourites'
+import OnlineItems from './components/OnlineItems/OnlineItems'
+import Cart from './components/Cart/Cart'
 
 const App = () => {
   return (
@@ -14,12 +16,15 @@ const App = () => {
 
       <BrowserRouter>
       <Categories/>
+      {/* <FetchData/> */}
       <Routes>
         <Route exact path = "/" element = {<Home/>} />
         <Route exact path = "/cuisine/:type" element = {<Cuisine/>} />
         <Route exact path = "/recipe/:id" element = {<RecipePage/>} />
         <Route exact path = "/searched/:name" element = {<SearchedProducts />} />
         <Route exact path = "/cuisine/favourites" element = {<Favourites/>} />
+        <Route exact path = "/order/online" element = {<OnlineItems/>} />
+        <Route exact path = "/cart" element = {<Cart/>} />
       </Routes>
       </BrowserRouter>
       

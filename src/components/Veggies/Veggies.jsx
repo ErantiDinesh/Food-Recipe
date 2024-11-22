@@ -29,7 +29,7 @@ const Veggies = () => {
             <Splide
     options={{
         perPage: 4,
-        arrows: true,
+        arrows: false,
         pagination: false,
         drag: 'free',
         gap: '1rem',       

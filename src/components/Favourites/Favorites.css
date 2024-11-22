@@ -5,3 +5,31 @@
     flex-wrap: wrap;
     gap: 1rem;
 }
+
+.favpage-browse-recipes {
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 3px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.favpage-browse-recipes:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border: 1px solid black;
+}
+
+.empty-fav-page {
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
